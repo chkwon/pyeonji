@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pyeonji Privacy Policy</title>
+<link rel="icon" href="icon.png">
+<style>
+  :root { color-scheme: light dark; --bg: #fbfaf7; --fg: #1d1d1f; --muted: #5f6368; --accent: #a8481f; --card: #ffffff; --line: #e6e2da; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #161514; --fg: #f2efe9; --muted: #a8a29a; --accent: #f0a273; --card: #1f1e1c; --line: #34312d; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 20px 72px; }
+  .back { font-size: 0.95rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 18px 0 4px; letter-spacing: -0.01em; }
+  .updated { margin: 0 0 24px; color: var(--muted); }
+  h2 { font-size: 1.15rem; margin: 36px 0 8px; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  code { font: 0.9em ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .note { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; }
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; display: flex; flex-wrap: wrap; gap: 6px 18px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="./">Pyeonji</a>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Effective November 24, 2026</p>
+
+  <p>Pyeonji is a macOS email app. This policy explains what data Pyeonji uses and where that data goes. In short, your data goes only between your Mac and the services you connect (Google and Apple). Nothing is sent to the developer or to anyone else.</p>
+
+  <h2>Data Pyeonji uses</h2>
+  <ul>
+    <li><strong>Google accounts.</strong> With your permission, Pyeonji uses Google APIs to access:
+      <ul>
+        <li>your Gmail messages, attachments, drafts and labels;</li>
+        <li>your Gmail sending addresses and signatures;</li>
+        <li>your Google Calendar list and the events you create from Pyeonji, if you turn on Calendar;</li>
+        <li>your account's email address, to tell your accounts apart.</li>
+      </ul>
+    </li>
+    <li><strong>iCloud Mail.</strong> Pyeonji connects to Apple's mail servers with an app-specific password that you create, and downloads and sends your iCloud mail.</li>
+    <li><strong>Apple Reminders.</strong> When you ask Pyeonji to remind you about a message, it creates a reminder through macOS, which stores it in your Apple account.</li>
+    <li><strong>Files you import.</strong> <code>.eml</code> files you import stay in Pyeonji's local archive on your Mac.</li>
+  </ul>
+
+  <h2>How Pyeonji uses it</h2>
+  <p>Pyeonji uses this data only to provide its features to you: showing, searching and organizing your mail, sending the messages you write, and creating the events and reminders you ask for. Pyeonji acts only when you use it, and only on the accounts you connect.</p>
+
+  <h2>Where it is stored</h2>
+  <ul>
+    <li>Messages, attachments and the search index are stored on your Mac, in <code>~/Library/Application Support/Pyeonji</code>.</li>
+    <li>Sign-in tokens and passwords are stored in the macOS Keychain on your Mac.</li>
+    <li>Pyeonji connects to Google and Apple over encrypted connections (HTTPS and TLS).</li>
+  </ul>
+
+  <h2>Sharing</h2>
+  <p>Pyeonji has no server, and the developer never receives your data. Pyeonji does not sell your data, share it with anyone, show ads, or include analytics or tracking. It blocks remote images in messages until you choose to load them, so senders can't tell when you open a message. Pyeonji does not use your data to develop, improve or train artificial intelligence or machine learning models.</p>
+
+  <p class="note">Pyeonji's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>You can revoke Pyeonji's access to a Google account at any time from <a href="https://myaccount.google.com/connections">Google Account, Third-party apps &amp; services</a>.</li>
+    <li>You can delete an iCloud app-specific password at <a href="https://account.apple.com">account.apple.com</a>.</li>
+    <li>To delete everything Pyeonji stored, quit Pyeonji and delete the folder <code>~/Library/Application Support/Pyeonji</code>. Then remove Pyeonji's items from the Keychain Access app.</li>
+  </ul>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:ch.kwon@gmail.com">ch.kwon@gmail.com</a></p>
+
+  <footer>
+    <a href="./">Home</a>
+    <a href="terms.html">Terms of Service</a>
+  </footer>
+</main>
+</body>
+</html>

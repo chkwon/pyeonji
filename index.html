@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pyeonji – a Mac mail app</title>
+<meta name="description" content="Pyeonji is a Mac mail app for Gmail, Google Workspace and iCloud Mail that keeps your mail on your Mac.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { color-scheme: light dark; --bg: #fbfaf7; --fg: #1d1d1f; --muted: #5f6368; --accent: #a8481f; --card: #ffffff; --line: #e6e2da; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #161514; --fg: #f2efe9; --muted: #a8a29a; --accent: #f0a273; --card: #1f1e1c; --line: #34312d; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 20px 72px; }
+  header { display: flex; align-items: center; gap: 18px; margin-bottom: 28px; }
+  header img { width: 72px; height: 72px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0; letter-spacing: -0.01em; }
+  .tagline { margin: 4px 0 0; color: var(--muted); }
+  h2 { font-size: 1.15rem; margin: 36px 0 8px; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  .note { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; }
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; display: flex; flex-wrap: wrap; gap: 6px 18px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>Pyeonji</h1>
+      <p class="tagline">편지, a Mac mail app for Gmail, Google Workspace and iCloud Mail.</p>
+    </div>
+  </header>
+
+  <p>Pyeonji is a native macOS email app. It was built to handle Korean mail correctly, including attachment names that other mail apps garble, while keeping every message on your own Mac.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Reads, searches, sends and organizes mail in Gmail, Google Workspace and iCloud Mail accounts.</li>
+    <li>Decodes Korean subjects and attachment names (UTF-8, EUC-KR and CP949) and saves attachments with their original bytes.</li>
+    <li>Creates Google Calendar events and Apple Reminders from messages, with links back to the message.</li>
+    <li>Imports and exports original <code>.eml</code> files.</li>
+  </ul>
+
+  <h2>Your data stays on your Mac</h2>
+  <p>Pyeonji talks directly to Google and Apple. There is no Pyeonji server, so the developer never receives your mail, contacts or calendar. Messages and the search index are stored on your Mac, and sign-in credentials are kept in the macOS Keychain. Pyeonji has no ads, analytics or tracking, and it blocks remote images in messages until you choose to load them. Read the <a href="privacy.html">privacy policy</a> for details.</p>
+
+  <h2>Signing in with Google</h2>
+  <p>When you add a Google account, Google asks you to let Pyeonji:</p>
+  <ul>
+    <li>read, send, label, archive and delete your Gmail messages;</li>
+    <li>see your Gmail sending addresses and signatures, and change default signatures when you ask it to;</li>
+    <li>if you turn on Calendar, see your list of calendars and create events.</li>
+  </ul>
+  <p class="note">Pyeonji is a personal project that Google hasn't reviewed, so Google may show “Google hasn't verified this app”. Continue only if you trust the person who gave you Pyeonji: choose Advanced, then Go to Pyeonji.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <span>Contact: <a href="mailto:ch.kwon@gmail.com">ch.kwon@gmail.com</a></span>
+  </footer>
+</main>
+</body>
+</html>
